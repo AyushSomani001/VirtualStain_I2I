@@ -1,3 +1,9 @@
+###############################################################################
+# Code from
+# https://github.com/NVIDIA/pix2pixHD/tree/master/util/visualizer.py
+# adapted for the specified VirtualStain problem with modification to the network architecture and loss function.
+###############################################################################
+
 import numpy as np
 import os
 import ntpath
