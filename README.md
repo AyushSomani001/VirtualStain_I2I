@@ -9,7 +9,7 @@ This README will explain how to:
 If you use this code, please cite our paper:
 
 
-BibTeX:
+BibTeX (To-be-Updated):
 
 ```bibtex
 @article{somani2022virtual,
