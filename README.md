@@ -11,19 +11,28 @@ The data is made available through UiT public repository for large datasets, Dat
 
 ## 💻 Citing the code
 
-If you use this code, please cite our paper:
-``` [To-be-Updated] ```
+If you use this code, please cite our paper:<br>
+```
+Ayush Somani, Arif Ahmed Sekh, Ida S. Opstad, Åsa Birna Birgisdottir, Truls Myrmel, Balpreet Singh Ahluwalia, Alexander Horsch, Krishna Agarwal, and Dilip K. Prasad, "Virtual labeling of mitochondria in living cells using correlative imaging and physics-guided deep learning," Biomed. Opt. Express 13, 5495-5516 (2022)
+```
 
-📑 BibTeX ``` [To-be-Updated] ```:
+📑 BibTeX:
 
 ```bibtex
 @article{somani2022virtual,
   title={Virtual Labeling of Mitochondria in Living Cells using Correlative Imaging and Physics-guided Deep Learning},
   author={Somani, Ayush and Sekh, Arif Ahmed and Opstad, Ida S and Birgisdottir, {\AA}sa Birna and Myrmel, Truls and Ahluwalia, Balpreet Singh and Agarwal, Krishna and Prasad, Dilip K and Horsch, Alexander},
   journal = {Biomed. Opt. Express},
+  number = {10},
+  pages = {5495--5516},
+  publisher = {Optica Publishing Group},
   year={2022},
   volume = {13},
-  publisher = {Optica Publishing Group}
+  month = {Oct},
+  year = {2022},
+  publisher = {Optica Publishing Group},
+  url = {http://opg.optica.org/boe/abstract.cfm?URI=boe-13-10-5495},
+  doi = {10.1364/BOE.464177},
 }
 ```
 
