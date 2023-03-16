@@ -81,11 +81,18 @@ conda activate VS
 ```
 
 **OR**
-Easily setup the Conda environment by cloning the environment `Somani`
+Easily setup the Conda environment by cloning the miniconda3 environment `Somani` present in the assets folder.
 
 ```
 conda create --name VS --clone _assets\miniconda3\envs\Somani
 conda activate VS
+```
+
+Note: Replace ``VS`` with the name of the new environment. ``Somani`` is the name of the existing environment that you want to copy.
+To verify that the copy was made:
+
+```
+conda info --envs
 ```
 
 ## Dataset preparation
