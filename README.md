@@ -57,6 +57,52 @@ Ayush Somani, Arif Ahmed Sekh, Ida S. Opstad, Åsa Birna Birgisdottir, Truls Myr
 }
 ```
 
+## Prerequisites
+
+- Python 3
+- PyTorch 1.0.1 or higher, with NVIDIA CUDA Support
+- Tensorflow 1.10.0 or higher
+- Other required python packages specified by `requirements.txt`. See the Installation.
+
+## Installation
+
+Clone this repository:
+
+```
+git clone https://github.com/AyushSomani001/VirtualStain_I2I.git
+```
+
+Create a conda environment for VS, and install the requirements. This includes the required python packages
+from `requirements.txt`. Most of the required packages have been included in the built-in `anaconda` package:
+
+```
+conda create -n VS anaconda
+conda activate VS
+```
+
+Install all the dependencies and libraries associated with the conda environment:
+
+```
+conda install python=3.5
+conda install requirement.txt
+```
+
+## Dataset preparation
+
+To replicate the experiments, you need to prepare your dataset as the following. Taking the Microscopy dataset as an example and creating just the training and test set split.
+
+```
+Microscopy
+├── train_A
+│   └── images (Contains BrightField images)
+├── train_B
+│   └── images (Contains Fluroscent counterpart images)
+├── test_A
+│   └── images
+└── test_B
+    └── images
+```
+
 
 ## 📌 Acknowledgments
 This code extensively draws inspiration from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
