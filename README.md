@@ -30,6 +30,8 @@ This README will explain how to:
 ## 🔬 Data Availability
 The data is made available through UiT public repository for large datasets, Dataverse: ``` [To-be-Updated] ```
 
+The TIFF frames extracted from the .dv mircoscopy file can then be converted into PNG format of dimension '1024 x 1024' and subsequently randomly cropped into '256 x 256' using the `Data_Gen.py` file in the assets folder.
+
 ## 💻 Citing the code
 
 If you use this code, please cite our paper:<br>
