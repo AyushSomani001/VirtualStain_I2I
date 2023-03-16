@@ -1,7 +1,28 @@
-# Virtual Labeling of Mitochondria in Living Cells using Correlative Imaging and Physics-guided Deep Learning
-By AYUSH SOMANI, ARIF AHMED SEKH, IDA S. OPSTAD, ÅSA BIRNA BIRGISDOTTIR, TRULS MYRMEL, BALPREET SINGH AHLUWALIA, ALEXANDER HORSCH, KRISHNA AGARWAL, AND DILIP K. PRASAD
+**[Virtual Labeling of Mitochondria in Living Cells using Correlative Imaging and Physics-guided Deep Learning
+](https://opg.optica.org/boe/abstract.cfm?uri=boe-13-10-5495)**
+<br />
+[Ayush Somani](http://www.ayushsomani.com), 
+[ARIF AHMED SEKH](https://skarifahmed.github.io/), 
+[IDA S. OPSTAD](https://en.uit.no/ansatte/person?p_document_id=472778),
+[ÅSA BIRNA BIRGISDOTTIR](https://en.uit.no/ansatte/person?p_document_id=41975),
+[TRULS MYRMEL](https://en.uit.no/ansatte/person?p_document_id=41762),
+[BALPREET SINGH AHLUWALIA](https://en.uit.no/ansatte/person?p_document_id=44202),
+[ALEXANDER HORSCH](https://en.uit.no/ansatte/alexander.horsch),
+[KRISHNA AGARWAL](https://sites.google.com/site/uthkrishth/krishnaagarwal), and
+[DILIP K. PRASAD](https://sites.google.com/site/dilipprasad/home)
+<br />
+In Biomedical Optics Express (BOE) 2022
+<br />
+[[Paper]](https://opg.optica.org/boe/abstract.cfm?uri=boe-13-10-5495)
+[[BibTex]](_assets/boe-13-10-5495.bib)
 
-This is the code for Virtual Labeling of Mitochondria in Living Cells using Correlative Imaging and Physics-guided Deep Learning.
+This is the code for Virtual Labeling of Mitochondria in Living Cells using Correlative Imaging and Physics-guided Deep Learning. Figure (A) outlines the proposed method. The red coloured numbers represent the principal modules and their sequence, and Figure (B) conditional GAN of the employed architecture.
+The details of the architecture are presented in section 2.3.
+
+<div align="center">
+  <img src="_assets/framework.png" width="100%">
+</div>
+
 
 This code in this repository can be used to run training and inference of our model on a single machine, and can be adapted for distributed training. 
 This README will explain how to:
