@@ -90,18 +90,18 @@ conda activate VS
 
 ## Dataset preparation
 
-To replicate the experiments, you need to prepare your dataset as the following. Taking the Microscopy dataset as an example and creating just the training and test set split.
+To replicate the experiments, you need to prepare your dataset as the following. Taking the **Mitochondria** dataset as an example and creating just the training and test set split.
 
 ```
-Microscopy
-├── train_A
-│   └── images (Contains BrightField images)
-├── train_B
-│   └── images (Contains Fluroscence counterpart images)
-├── test_A
-│   └── images
-└── test_B
-    └── images
+VirtualStain_I2I\Dataset
+                  ├── train_A
+                  │   └── images (Contains BrightField images)
+                  ├── train_B
+                  │   └── images (Contains Fluroscence counterpart images)
+                  ├── test_A
+                  │   └── images
+                  └── test_B
+                      └── images
 ```
 
 ## Training and evaluation.
