@@ -76,15 +76,16 @@ Create a conda environment for VS, and install the requirements. This includes t
 from `requirements.txt`. Most of the required packages have been included in the built-in `anaconda` package:
 
 ```
-conda create -n VS anaconda
+conda create -n VS --file VirtualStain_I2I\requirements.txt
 conda activate VS
 ```
 
-Install all the dependencies and libraries associated with the conda environment:
+**OR**
+Easily setup the Conda environment by cloning the environment `Somani`
 
 ```
-conda install python=3.5
-conda install requirement.txt
+conda create --name VS --clone _assets\miniconda3\envs\Somani
+conda activate VS
 ```
 
 ## Dataset preparation
@@ -96,12 +97,16 @@ Microscopy
 ├── train_A
 │   └── images (Contains BrightField images)
 ├── train_B
-│   └── images (Contains Fluroscent counterpart images)
+│   └── images (Contains Fluroscence counterpart images)
 ├── test_A
 │   └── images
 └── test_B
     └── images
 ```
+
+## Training and evaluation.
+To train the model:
+
 
 
 ## 📌 Acknowledgments
