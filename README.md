@@ -113,6 +113,8 @@ VirtualStain_I2I\Dataset
                       └── images
 ```
 
+**Note:** The ``VirtualStain_I2I\Dataset`` folder contains a sample subset of *200 image pairs*, divided into a 70-30 training set and a test set ratio. This is not the exhaustive dataset that was compiled and utilized for the results section of the study.
+
 ## Training and evaluation.
 To train the model:
 
