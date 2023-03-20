@@ -90,7 +90,7 @@ conda create --name VS --clone _assets\miniconda3\envs\Somani
 conda activate VS
 ```
 
-Note: Replace ``VS`` with the name of the new environment. ``Somani`` is the name of the existing environment that you want to copy.
+Note: You may replace ``VS`` with the choice of the new environment name. ``Somani`` is the name of the existing environment that you want to copy.
 To verify that the copy was made:
 
 ```
