@@ -83,7 +83,7 @@ conda activate VS
 ```
 
 **OR**
-Easily setup the Conda environment by cloning the miniconda3 environment `Somani` present in the assets folder.
+Easily setup the Conda environment by cloning the miniconda3 environment `Somani` available for download [here](https://mega.nz/folder/uJgGiCbT#vyTYH0Ybfyy5u9-GoAkZ-w).
 
 ```
 conda create --name VS --clone _assets\miniconda3\envs\Somani
