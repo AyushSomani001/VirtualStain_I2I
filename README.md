@@ -117,8 +117,16 @@ VirtualStain_I2I\Dataset
 
 ## Training and evaluation.
 To train the model:
+```
+python train.py --name <model_name> --gpu_ids 0 --no_lsgan --lambda_feat 5 --lambda_feat_k 50 --dataroot './VirtualStain_I2I/Dataset'  --niter_decay 500
+```
 
+You can add other data arguments like: "--gaussian_loss" or "--dice_bce" present in the ```VirtualStain_I2I/options/train_options.py''' option to experiment with other G_GAN Loss Functions.
 
+To Test the model:
+```
+python test.py --name <model_name> --dataroot './VirtualStain_I2I/Dataset' 
+```
 
 ## 📌 Acknowledgments
 This code extensively draws inspiration from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
